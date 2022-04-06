@@ -59,3 +59,7 @@
 
 </body>
 </html>
+table {
+    border-spacing: 5px;
+    animation: pulse 10s infinite;
+}
