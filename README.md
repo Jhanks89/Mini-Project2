@@ -6,8 +6,94 @@
 	<title>Mini Project 2</title>
 	<link rel="stylesheet" type="text/css" href="miniproject2.css">
 </head>
+body {
+	background-color: yellow;
 
-<body>
+}
+
+h1 {
+	color: red;
+	text-align: center;
+}
+
+#bigger {
+	font-size: 48px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+h2 #bigger2 {
+	font-size: 48px;
+}
+
+#red {
+	color: red;
+}
+
+h2 {
+	text-align: right;
+	color: blue;
+	font-style: italic;
+}
+
+a {
+	color: red;
+
+}
+
+a:visited { 
+  color: blue;
+}
+
+h3 {
+	text-align: right;
+	color: red;
+	position: relative;
+	-webkit-animation: mymove 5s infinite;
+	-webkit-animation-delay: 2s;
+	animation: mymove 5s infinite;
+	animation-delay: 2s;
+}
+
+@-webkit-keyframes mymove {
+	from {
+		right: 0px;
+	}
+	to {
+		right: 800px;
+	}
+}
+
+@keyframes mymove {
+	from {right: 0px;}
+	to {right: 800px;}
+}
+
+table {
+	border-spacing: 5px;
+	animation: pulse 10s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		background-color: cyan;
+		color: black;
+	}
+
+	100% {
+		background-color: green;
+		color: white;
+	}
+}
+
+td {
+	text-align: center;
+	padding: 10px;
+}
+
+#tablestyle {
+	font-weight: bold;
+}<body>
 
 	<h1>This is the first heading</h1>
 
@@ -60,24 +146,4 @@
 </body>
 </html>
 element.style {
-}
-table {
-    border-spacing: 5px;
-    animation: pulse 10s infinite;
-}
-table {
-    display: table;
-    border-collapse: separate;
-    box-sizing: border-box;
-    text-indent: initial;
-    border-spacing: 2px;
-    border-color: grey;
-}
-0% {
-    background-color: cyan;
-    color: black;
-}
-100% {
-    background-color: green;
-    color: white;
-}
+
