@@ -59,7 +59,25 @@
 
 </body>
 </html>
+element.style {
+}
 table {
     border-spacing: 5px;
     animation: pulse 10s infinite;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+0% {
+    background-color: cyan;
+    color: black;
+}
+100% {
+    background-color: green;
+    color: white;
 }
