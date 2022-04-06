@@ -6,6 +6,7 @@
 	<title>Mini Project 2</title>
 	<link rel="stylesheet" type="text/css" href="miniproject2.css">
 </head>
+element.style {
 body {
 	background-color: yellow;
 	}
@@ -80,6 +81,7 @@ td {
 #tablestyle {
 	font-weight: bold;
 }
+	}
 	<body>
 
 	<h1>This is the first heading</h1>
@@ -132,5 +134,4 @@ td {
 
 </body>
 </html>
-element.style {
 
