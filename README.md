@@ -10,36 +10,33 @@
 body {
 	background-color: yellow;
 	}
-
-h1 {
+	h1 {
 	color: red;
 	text-align: center;
 	}
-#bigger {
+	#bigger {
 	font-size: 48px;
 	font-weight: bold;
 	font-style: italic;
-}
-h2 #bigger2 {
+	}
+	h2 #bigger2 {
 	font-size: 48px;
-}
-#red {
+	}
+	#red {
 	color: red;
-}
-h2 {
+	}
+	h2 {
 	text-align: right;
 	color: blue;
 	font-style: italic;
-}
-
-a {
+	}
+	a {
 	color: red;
-}
-
-a:visited { 
-  color: blue;
-}
-h3 {
+	}
+	a:visited { 
+	color: blue;
+	}
+	h3 {
 	text-align: right;
 	color: red;
 	position: relative;
@@ -47,40 +44,40 @@ h3 {
 	-webkit-animation-delay: 2s;
 	animation: mymove 5s infinite;
 	animation-delay: 2s;
-}
-@-webkit-keyframes mymove {
+	}
+	@-webkit-keyframes mymove {
 	from {
 		right: 0px;
 	}
 	to {
 		right: 800px;
 	}
-}
-@keyframes mymove {
+	}
+	@keyframes mymove {
 	from {right: 0px;}
 	to {right: 800px;}
-}
-table {
+	}
+	table {
 	border-spacing: 5px;
 	animation: pulse 10s infinite;
-}
-@keyframes pulse {
+	}
+	@keyframes pulse {
 	0% {
-		background-color: cyan;
+	background-color: cyan;
 		color: black;
 	}
 	100% {
 		background-color: green;
 		color: white;
 	}
-}
-td {
+	}
+	td {
 	text-align: center;
 	padding: 10px;
-}
-#tablestyle {
+	}
+	#tablestyle {
 	font-weight: bold;
-}
+	}
 	</stle>
 	<body>
 		<h1>This is the first heading</h1>
