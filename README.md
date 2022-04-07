@@ -4,7 +4,6 @@
 	<meta name="description" content="Mini Project 2 for the CNIT-132 class">
   	<meta name="keywords" content="HTML and CSS">
 	<title>Mini Project 2</title>
-	<link rel="stylesheet" type="text/css" href="miniproject2.css">
 </head>
 <style>
 body {
